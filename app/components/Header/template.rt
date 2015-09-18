@@ -5,11 +5,7 @@
     <h1 className={this.styles.title}>YARSK</h1>
 
     <h2 className={this.styles.tagline}>
-      (<strong>Y</strong>et{' '}
-        <strong>A</strong>nother{' '}
-        <strong>R</strong>eact{' '}
-        <strong>S</strong>tarter{' '}
-        <strong>K</strong>it)
+      React start kit using react-templates
     </h2>
   </div>
 </header>
