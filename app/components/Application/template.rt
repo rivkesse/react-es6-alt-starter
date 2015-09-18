@@ -1,0 +1,12 @@
+<rt-require dependency="../Header" as="Header"/>
+
+<div className={this.styles.main}>
+  <div className={this.styles.wrap}>
+    <Header />
+
+    <main className={this.styles.body}>
+      <p>Seems like creating your own React starter kit is a right of passage. So, here's mine.</p>
+      <p>For more information, see the <a href="https://github.com/bradleyboy/yarsk#yarsk">Readme</a>.</p>
+    </main>
+  </div>
+</div>

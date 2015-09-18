@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 /**
  * Import locally scoped styles using css-loader
@@ -9,27 +9,22 @@ import React from 'react';
 import styles from './style';
 
 /**
- * Reference an image and get back a URL automatically via webpack.
- * webpack takes care of versioning, bundling for production, etc.
-*/
+ * Images
+ */
 import logoURL from './images/react-logo.svg';
 
-export default class Header extends React.Component {
-  render() {
-    return <header className={styles.main}>
-      <img className={styles.logo} src={logoURL} height="125" />
+/**
+ * Templates
+ */
+import template from './template.rt';
 
-      <div className={styles.wrap}>
-        <h1 className={styles.title}>YARSK</h1>
+export default class Header extends Component {
+  render () {
+    let defaults = {
+        styles: styles,
+        logoURL: logoURL
+    };
 
-        <h2 className={styles.tagline}>
-          (<strong>Y</strong>et{' '}
-            <strong>A</strong>nother{' '}
-            <strong>R</strong>eact{' '}
-            <strong>S</strong>tarter{' '}
-            <strong>K</strong>it)
-        </h2>
-      </div>
-    </header>;
+    return template.apply(defaults);
   }
 }
