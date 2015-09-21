@@ -15,6 +15,7 @@
   "author": "Brad Daily <brad@bradleyboy.com>",
   "license": "MIT",
   "dependencies": {
+    "alt": "^0.17.3",
     "react": "~0.13.0",
     "react-router": "^0.13.3"
   },

@@ -1,11 +1,1 @@
-<rt-require dependency="../Header" as="Header"/>
-
-<div className={this.styles.main}>
-  <div className={this.styles.wrap}>
-    <Header />
-
-    <main className={this.styles.body}>
-      <p>I am a Detail Page</p>
-    </main>
-  </div>
-</div>
+<p>I am a Detail Page</p>

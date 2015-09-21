@@ -1,0 +1,9 @@
+<rt-require dependency="react-router" as="Router"/>
+
+<div>
+    <p>I am a List Page</p>
+
+    <ul>
+        <li rt-repeat=""><Router.Link to={'/detail'}>Detail Page</Router.Link></li>
+    </ul>
+</div>

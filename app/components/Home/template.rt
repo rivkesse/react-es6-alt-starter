@@ -1,1 +1,6 @@
-<p>I am a home page.</p>
+<rt-require dependency="react-router" as="Router"/>
+
+<p>I am a home page.
+<br />
+I link to a <Router.Link to={'/list'}>List Page</Router.Link>
+</p>
