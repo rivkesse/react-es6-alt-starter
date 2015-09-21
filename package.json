@@ -15,7 +15,8 @@
   "author": "Brad Daily <brad@bradleyboy.com>",
   "license": "MIT",
   "dependencies": {
-    "react": "~0.13.0"
+    "react": "~0.13.0",
+    "react-router": "^0.13.3"
   },
   "devDependencies": {
     "autoprefixer-loader": "^2.0.0",

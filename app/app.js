@@ -8,6 +8,13 @@ import './css/base';
 // require("babel/polyfill");
 
 import React from 'react';
+import Router from 'react-router';
 import Application from './components/Application';
 
-React.render(<Application />, document.getElementById('app'));
+var routes = require('./routes');
+
+Router.run(routes, function (Handler) {
+  React.render(<Handler/>, document.getElementById('app'));
+});
+
+// React.render(<Application />, document.getElementById('app'));

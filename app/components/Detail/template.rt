@@ -1,11 +1,11 @@
 <rt-require dependency="../Header" as="Header"/>
-<rt-require dependency="react-router" as="Router"/>
 
 <div className={this.styles.main}>
   <div className={this.styles.wrap}>
     <Header />
 
     <main className={this.styles.body}>
-      <Router.RouteHandler />
+      <p>I am a Detail Page</p>
+    </main>
   </div>
 </div>
