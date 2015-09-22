@@ -3,7 +3,7 @@ import { Router, Route, DefaultRoute, NotFoundRoute } from 'react-router';
 
 var Main    = require('./components/Application');
 var Home    = require('./components/Home');
-var List  = require('./components/List');
+var List    = require('./components/List');
 var Detail  = require('./components/Detail');
 
 var routes = (
